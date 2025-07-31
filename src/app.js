@@ -27,4 +27,8 @@ app.use("/api/v1/users", userRouter);
 import tweetRouter from "./routes/tweet.routes.js";
 app.use("/api/v1", tweetRouter);
 
+// Video Routes
+import videoRouter from "./routes/video.routes.js";
+app.use("/api/v1/videos", videoRouter);
+
 export default app;
